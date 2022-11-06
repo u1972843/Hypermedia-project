@@ -22,13 +22,20 @@ a:hover{
     color: #ff9f1c;
 }
 
-/* left_column */
+/* left_column (img, about me, languages, contact)*/
 
 #left_column{
     flex-basis: 20%;
     flex-direction: row;
     padding-left: 15px;
     background-color: #2EC4B6;
+}
+
+.left_line{
+    display: inline-block;
+    background-color: #ffbf69;
+    height: 2px;
+    width: 95%;
 }
 
 img{
@@ -65,7 +72,7 @@ img{
 }
 
 
-/*  right_column */
+/*  right_column (name & job, experience, formation, proyects)*/
 
 #right_column{
     flex-direction: column;
@@ -86,16 +93,23 @@ img{
 #right_column h3{
     color:#ff9f1c;
     font-size: 20pt;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 #right_column ul{
     list-style-type:upper-roman;
+    padding-left: 60px;
+    padding-bottom: 20px;
 }
 
 #right_column li{
     font-size: 16pt;
 }
 
-
-
-
+.right_line{
+    display: inline-block;
+    background-color: #ffbf69;
+    height: 2px;
+    width: 100%;
+}
